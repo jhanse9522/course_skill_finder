@@ -1,0 +1,386 @@
+1)
+
+Information Modeling University of Illinois School of Information Sciences Last updated January 14, 2019 IS561A Spring 2019 Mondays and Wednesdays 12:00pm to 1:20pm 209 Huff Hall 4 GR hours Instructor: Dr. Wickett Email: wickett2@illinois.edu Email is the best way to contact me – I generally respond within 24 hours. Office: LIS 335 Office Hours: After class, and by appointment Course Description An introduction to the foundations of information modeling methods used in current information management applications. The specific methods considered include relational database design, conceptual modeling, and ontologies. The basic concepts underlying these methods are sets, relations, entities, and logics. Applications considered include relational database design and RDF/OWL semantic web languages. Set theory and logic are emphasized as the foundational frameworks for information modeling in general, and for contemporary web-based information management and delivery systems (including semantic web technologies) in particular. Course Overview Two sorts of students are anticipated and the course objectives are similar but slightly different for each group. In neither case is prior relevant knowledge assumed. • LIS561 prepares students anticipating generalist responsibilities (as directors, managers, general staff, etc.) to be effective leaders in making decisions about the design, development, and evaluation of information systems, services, and policies, helping their organizations and communities deal with all aspects of the difficult technology challenges ahead. • LIS561 prepares students anticipating careers as technology specialists to efficiently acquire and maintain superior information modeling skills throughout their careers and to play leadership roles in the design, development, and evaluation of information systems, services, and policies. Consistent with the iSchool goal of producing leaders and not just competent professionals we focus on developing a deep understanding that will have long-term benefits and prepare students to engage the hardest problems facing organizations and society. Of course, LIS561 alone cannot fully realize these objectives; it makes a partial contribution, focusing on the principles and concepts of information modeling. A partial contribution, but a necessary one: the connection between a deep understanding of information modeling concepts and the challenging information management problems facing us today is profound. Learning Objectives Content Objectives 1. Develop fluency in reading and understanding formal definitions. 2. Understand the role of abstraction in making systems design choices. 3. Contrast deep vs. superficial differences in modeling languages. 4. Recognize practical implications of trading expressive power for tractability. 5. Appreciate the fundamental role of a very small set of inter-related concepts. Teamwork and Communication Objectives 1. Develop and practice strong teamwork skills. 2. Develop and practice strong oral and written communication skills.
+
+
+
+
+
+
+2)
+
+IS542A Data, Statistical Models and Information Spring 2019 Tuesdays, 9:30am-12:30pm, Room 126 Instructor:  Jill Naiman Office hours:   Email:  jnaiman@illinois.edu Course Description An introduction to statistical and probabilistic models as they pertain to quantifying information, assessing information quality, and principled application of information to decision-making. The increasing prevalence of massive data sets and falling computational barriers have rendered statistical modeling an integral part of contemporary information management. With this in mind, this class prepares students to select and properly undertake commonly encountered modeling tasks. The course reviews relevant results from probability theory, emphasizing the merits and limitations of familiar probability distributions as vehicles for modeling information. Subsequent consideration includes parametric and non¬parametric predictive models, as well as a discussion of extensions of these models for unsupervised learning. Throughout these discussions, the course focuses on model selection and gauging model quality. Applications of statistical and probabilistic models to tasks in information management (e.g. prediction, ranking, and data reduction) are emphasized. Learning Objectives Students will demonstrate an understanding of probability theory and statistical learning by building and evaluating models of a diverse range of data sets. By the end of the course students will have basic concepts of what constitutes a “good” statistical question, what one can feasibly learn and predict with data, and an overview of toolsets and methods to answer elementary statistical questions.  In particular, each student will be able to: ● Articulate the role of marginal, joint, and conditional probability in modeling processes involving information. ● Select, parameterize, and compare probability distributions as vehicles for modeling information. ● Specify, estimate and evaluate elementary parametric statistical models. ● Specify, estimate and evaluate elementary non¬parametric statistical models. ● Articulate professional responsibilities with respect to creating, describing and using models built from data. 1/9/2019 IS542A Syllabus - Google Docs https://docs.google.com/document/d/1wBIFndDBRvik-KLUKz7Z4PNpoH0O2CvZZHy5r62oBcA/edit 2/7 Pre¬ and Co¬requisite IS452 Foundations of Information Processing is strongly recommended as a prerequisite. A highly motivated student could pass this course without IS452 (so the prerequisite is not enforced), but programming will not be covered in this course. Students who have not completed an introductory course on statistics will need to come up to speed quickly on material covered early in the semester. Required Texts James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013)  An Introduction to Statistical Learning.  New York: Springer. [ abbreviated ISL ] http://www¬bcf.usc.edu/~gareth/ISL/ Diez, D., Barr, C., and Cetinkaya¬Rundel, M. (2015)  OpenIntro Statistics  Third Edition, [available online,  https://www.openintro.org/stat/textbook.php?stat_book=os , abbreviated OIS ] Venables, W.N., Smith, D.M and the R Core Team (2012)  An Introduction to R . [available online,  http://cran.r¬project.org/doc/manuals/R¬intro.pdf ,  abbreviated ITR
+
+
+3)
+
+IS 452AG/AU 2019 Syllabus
+Instructor information
+•	Instructor: Nigel Bosch
+•	Office: 4040 NCSA (National Center for Supercomputing Applications)
+•	Email: pnb@illinois.edu
+Course description
+This course covers the common data and document processing constructs and programming concepts used in library and information science. The history, strengths and weaknesses of the techniques are evaluated in the context of our discipline. These constructs and techniques form the basis of applications in areas such as bibliographic records management, full text management and multimedia. No prior programming background is assumed. The first half of the course will focus on programming essentials in Python, and the second half will have us explore other applications and how to integrate the fundamentals to solve more complex problems.
+Informal learning goals
+The following are more 'educational wins' rather than formal learning goals. Of course I hope that you learn how to program in this class, but not everyone taking the course wants to program after taking the class. So why is this still a valuable class for you to take? Read on.
+Minimal Wins
+•	Evaluate programming book and resource searches and/or bookstore selections
+•	Understand some memes you didn’t before
+•	Run a reference interview for a patron who comes to you wanting to learn how to program
+•	Critically evaluate or write a reality-based technical job description
+•	Speak confidently about technical concepts and tools in consultations or job interviews
+Moderate Wins
+•	Hold stronger & more productive conversations with developers
+•	Act as a bridge between programmers and non-programmers (this is a false binary, but I'll deal with it for the sake of brevity)
+•	Confidently engage with developers and other IT staff with technical jargon and detail
+•	Detect vendor hand waving and other crap
+•	Evaluate the usefulness and applicability of potential technical tools (e.g. an open source command line tool)
+Big Wins
+•	Identify a programming problem and take steps toward writing a program to solve it
+•	Make use of more technical tools, or technical features of tools you currently use (e.g. SQL in Access, RegEx in text editors, etc.)
+•	Continue self study of programming
+•	Succeed in further programming coursework
+•	Do some coding!
+Class Time, Office Hours, and Lab Time
+•	Regular class times:
+o	Live session attendance is a requirement for all enrolled students.
+o	9:00am - 11:00am Wednesdays in Information Sciences room 53
+o	(Optional) Lab/office hours: 11:00am - 12:00pm in our classroom, directly following class. This hour will be used for traditional office hours and optional lab time.
+•	Make an appointment to meet:
+o	Feel free to send an email to the instructor or TA.
+
+
+4)
+
+Introduction to Databases
+IS 490DB
+Spring 2019
+iSchool Room 131 Fridays 9:00am-11:50am
+
+
+Instructor: Tatum Hawkins
+Email: thawkin3@illinois.edu
+Office hours location: iSchool Room 251
+Times: Mondays 4:30p-5:30p
+Office location: Coble Hall 129
+Phone number: 217.300.2742
+
+
+Contacting Your Instructor: Email is preferred. I check email many times throughout the day and can usually reply fairly quickly. Phone calls and voice mails will be checked and replied to, however the turn-around time for calls tends to be longer – I do not check voice mail over weekends. I will be in the iSchool Room 251 for office hours, the rest of the time my office is in Coble Hall. You may stop in at Coble with questions, however you must arrange this ahead of time.
+
+
+Course Description: The course provides students with both theoretical and practical training in good database design. By the end of the course students will create a conceptual data model using entity-relationship diagrams, understand the importance of referential integrity and how to enforce data integrity constraints when creating a database. Students will be proficient in writing basic queries in the structured query language (SQL) and have a general understanding of relational database theory including normalization.
+
+
+
+5)
+
+
+IS590ADV - Advanced Data Viz
+This is the course website for IS590ADV in Spring 2019
+•	View On GitHub
+Syllabus
+•	Semester, YYYY
+•	LIS 242, 1:00PM-3:50PM, Mondays
+•	4 Credit Hours
+•	Instructor: Matthew Turk
+•	Email: mjturk@illinois.edu
+•	Office: 222 LIS (501 E Daniel)
+•	Office Hour: By appointment
+•	Preferred Contact Method: email	•	Shared Papers: https://paperpile.com/shared/W47CwV
+
+Course Description
+In this seminar-style course we will discuss advanced topics in visualization techniques. This will cover topics such as the history of visualization techniques, the perception and understanding of visual information, and new frontiers in displaying quantitative information. We will explore the modern technical stack for creating and sharing visualizations, including topics in javascript, python, and reactive frameworks.
+Course Overview
+This course will include a number of technical tasks, but will additionally be focused on the aesthetic and high-level understanding of visualization. We will discuss in depth new trends in visualization as well as evidence-based studies of how to develop better visualizations.
+Students are expected to have laptops with them, as well as access to Python installations, and will be encouraged to participate in class. Homework will largely be in the form of projects and open-ended assignments. Class participation will not determine grades but is expected to guide discussions; students are expected to participate and share thoughts, ideas, and suggestions.
+Pre- and Co-requisites
+No explicit prerequisites are required. Students are expected to have taken standard programming courses. Students are expected to either be familiar with, or be prepared to familiarize themselves with, Python, Javascript, GitHub, and other computational tools. Haven taken Data Viz (IS590DV) is optional, but encouraged.
+Land Acknowledgment
+As a land-grant institution, the University of Illinois at Urbana-Champaign has a responsibility to acknowledge the historical context in which it exists. In order to remind ourselves and our community, we will begin this event with the following statement. We are currently on the lands of the Peoria, Kaskaskia, Peankashaw, Wea, Miami, Mascoutin, Odawa, Sauk, Mesquaki, Kickapoo, Potawatomi, Ojibwe, and Chickasaw Nations. It is necessary for us to acknowledge these Native Nations and for us to work with them as we move forward as an institution. Over the next 150 years, we will be a vibrant community inclusive of all our differences, with Native peoples at the core of our efforts.
+More information can be found on the Chancellor’s Website.
+Course Overview
+The central themes of the course are:
+1.	What are currently-understood best practices for constructing meaningful and beautiful visualizations?
+2.	What is the “cutting edge” of software stacks for visualization?
+3.	What theoretical approaches to visualization can we utilize to improve our ability to understand data?
+Course Materials
+There is no textbook for this course. All course materials will be posted to the GitHub repository at https://github.com/UIUC-iSchool-DataViz/spring2019-adv/
+As the course progresses, a list of recommended readings will be generated for each class. These will be included in the course materials repository, and students are encouraged to fork that repository and issue pull requests to add suggested readings.
+About your instructor
+Matthew Turk is an Assistant Professor at the School of Information Sciences. His training was in Astronomy, where he conducted simulations of the formation of the first stars in the Universe. This led him to work on developing an analysis and visualization package for volumetric data, yt, which has been used for quantiative and qualitative visualization of data from several disciplines.
+
+
+
+6)
+
+
+
+
+
+
+IS590DT: Data Mining Applications Spring 2019 Wednesdays 9:30am-12:20pm iSchool 46 Instructors Vetle Torvik Office: iSchool 221 Email: vtorvik@illinois.edu; Office Hours: 10am-noon Tuesdays Yingjun Guan Office: iSchool 211 Email: yingjun2@illinois.edu Office Hours: noon - 2pm Thursdays Course Description Data mining refers to the process of exploring large datasets with the goal of uncovering interesting patterns. This process usually involves a number of tasks such as data collection, pre-processing, and characterization; model fitting, selection, and evaluation; classification, clustering, and prediction. Although data mining has its roots in database management, it has grown into a discipline that focuses on algorithm design (to ensure computational feasibility) and statistical modeling (to separate the signal from the noise). As such, it draws heavily upon a variety of other disciplines including statistics, machine learning, operations research, and information retrieval. This course will cover the major data mining concepts, principles, and techniques that *every information scientist should know about.* Lectures will introduce and discuss the major approaches to data mining, computer lab sessions coupled with assignments will provide hands-on experience with these approaches, and term projects offer the opportunity to use data mining in a novel way. Mathematical detail will be left to the students who are so inclined. Course Objectives The overall goal of this course is to develop a data mining perspective of the world. More specifically, the objectives are: 1. To gain a broad exposure to data mining concepts and principles through lectures and discussion. 2. To develop a working proficiency in selected data mining techniques through lab sessions, hands-on assignments, and office hours. 3. To nurture the ability to detect opportunities to apply data mining concepts, principles and techniques in new scenarios by independent exploration of resources beyond the course materials, and, optionally, through a course project. Required Textbook and Software Witten IH, Frank E, Hall MA. Data Mining: Practical Machine Learning Tools and Techniques. Third edition, 2011. Morgan Kaufmann. WEKA: The work in this class requires use of the WEKA data mining software. We will learn how to properly use it and, more importantly, how to interpret its output. WEKA is freely available for download from http://www.cs.waikato.ac.nz/ml/weka/. Data: http://abel.lis.illinois.edu/data/
+
+
+
+
+
+7)
+
+
+
+LIS 590DW: Data Warehousing and Business Intelligence Course Syllabus for Spring 2019 Last modified: January 15, 2019 School of Information Science University of Illinois at Urbana-Champaign NOTE: Details here will be altered during the semester if necessary. Any substantive changes will be announced in class and/or via our Moodle Forums. 590DW class meets Thursdays from 1:00pm-3:50pm in Room 131, LIS Instructor: Michael Wonderlich, mcwonder@uillinois.edu Please check Moodle for my office hours. https://courses.ischool.illinois.edu/course/view.php?id=3645 SCOPE AND OBJECTIVES • Building a data warehousing and business intelligence environment o What are the primary components o What are the key services/technology o What are the primary roles in the project • Defining the Data Warehouse/Business Intelligence Project o Requirements gathering o Requirements analysis o Understanding the goals • Designing a Data Warehouse o Which modelling methodology  Kimball  Inmon o Organizing the data warehouse o Security the data o Creating the data model • Loading the Data Warehouse o Source-to-Target Maps o Extract, Transform, Load o Data Cleansing o Data Quality • Basic SQL • What is Business Intelligence o Reporting o Data Analysis o Data Visualization o Dashboards o Predictive Analytics • Hands-On Practice with o Business Objects Web Intelligence 2/5 590DW Syllabus. Spring 2019 o Microsoft Power BI o Tableau Desktop/Server • Best practices in data visualization o Creating effective data visualizations o Using the best tool for the task o Designing effective dashboards and scorecards • New technologies in data organization o Hadoop o NoSQL o Unstructured Data o Data Warehouse Appliances • Final Project in Data Warehousing or Business Intelligence REQUIRED TEXTBOOK Information Dashboard Design: Displaying Data for At-a-Glance Monitoring, by Stephen Few ISBN-13: 978-1938377006 $25 on Amazon SUGGESTED TEXTBOOKS (not required, but excellent sources of information) The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd Edition, by Richard Kimball and Margy Ross The Data Warehouse Lifecycle Toolkit, 2nd Edition, by Richard Kimball and Margy Ross Data Warehouse Design Solutions, by Christopher Adamson and Michael Venerable Practical Business Intelligence, by Ahmed Sherif SAP BusinessObjects Reporting Cookbook, by Yoav Yahav Tableau 10 Business Intelligence Cookbook, by Donabel Santos Data Mining for Dummies, by Meta S. Brown Instant Weka How-to, by Boštjan Kaluža The Wall Street Journal Guide to Information Graphics: The Dos and Don’ts of Presenting Data, Facts, and Figures, by Dona M. Wong Performance Dashboards – Measuring, Monitoring, and Managing your business, 2nd Edition, by Wayne Eckerson Data Science for Business: What you need to know about data mining and data-analytic thinking, by Foster Provost and Tom Fawcett Too Big to Ignore: The Business Case for Big Data, by Phil Simon Successful Business Intelligence: Unlock the Value of BI & Big Data, 2nd Edition, by Cindi Howson Business Intelligence Roadmap: The Complete Project Lifecycle for Decision-Support Applications, by Larissa T. Moss and Shaku Atre Business Intelligence Guidebook: From Data Integration to Analytics, by Rick Sherman 3/5 590DW Syllabus. Spring 2019 TECHNOLOGY REQUIREMENTS Participation in LIS 590DW will require you to bring your own laptop computer to class on some days (announced in advanced). It needs to be reasonably current hardware and operating system in properly functioning condition, or it will be a source of frustration for you and the class. Some of the software is Microsoft Windows specific, but some is available for Mac OS X and Microsoft Windows. If you have a Mac, accommodations will be made for the Windows specific software. However, iPads and most other tablet computers are not capable of running the software we’ll be using, even with a keyboard. If you have any doubts, please consult the instructor. All the software we’ll use in the class will either be free open source, commercial with licenses making it free for academic use, or provided free through the University’s WebStore. You will receive instructions on installation and use of the software as part of the course. READINGS AND COURSE CALENDAR This information will be maintained in the Moodle course site. COURSE GRADING The components of the course grade are 25% for regular assignments combined, 15% for quizzes, 25% for exams, 25% for the final project, and 10% for participation (includes in-class and Moodle discussions). The homework assignments will vary in complexity, so they may be weighted accordingly. There will be no traditional in-class final exam – instead, the final project is due during finals week. For the assignments requiring problem solutions to be submitted, late submissions may be accepted. Late submissions will have significant penalties. Some assignments will not be accepted late except in cases of emergency. (Reason: Late submissions make it impossible to post or discuss solutions with the class on a timely basis.) If you have an emergency, contact the instructor as early as possible to avoid impacting your grade. There may be some suggested exercises that will be self-evaluated. In other words, you should do them for learning and reinforcement practice, but they won't be graded. Grade scale: A 94-100; A- 90-93.9; B+ 87-89.9; B 83-86.9; B- 80-82.9; C+ 77-79.9; C 73-76.9; C- 70-72.9; D 65-69.9; F < 65. Qualitative Grading: When subjective evaluation is used to assign a score for an assignment or part thereof, this qualitative scale will be used as a guide: • A: Demonstrates solid understanding of the material, followed instructions carefully, and completed the work with zero or minor errors/omissions. Where applicable, shows creativity or ingenuity in appropriately adapting course concepts to realistic scenarios. • B: Demonstrates good understanding of the material, completed the assignment and made a few minor or moderate errors/omissions. Shows some ingenuity where applicable. • C: Demonstrates partial understanding of the material, completing the work with some notable problems. • D-F: Demonstrates very poor understanding of the relevant material and/or did not follow instructions well to substantially complete the work. Zero credit for problems/sections not performed. 4/5 590DW Syllabus. Spring 2019 NO COURSE INCOMPLETES Do not plan on requesting an incomplete status for this course. If you are unable to keep up with the classwork even with moderate assistance, please notify the instructor and drop the course before the last date permitted. The instructor will only grant incompletes for justifiably dire, unavoidable, and documented reasons such as protracted hospitalization. CLASSROOM CONDUCT Class sessions will include lectures and respectful, relevant orderly discussion is encouraged and expected. Cell phones should be turned off or silent. The use of computers in the classroom is expected for courserelevant purposes such as using our Moodle site, consulting on-line documentation, taking notes, and of course doing the in-class exercises. However, unrelated activities such as texting, instant messaging, emailing, gaming, Facebook, and other recreational web browsing are limited to outside the class or during designated break times. Even if you have mastered the material being discussed at the time, those activities will be distracting to other students and/or the instructor. Food & Drink: Given that we’ll have many computers in our classroom, please avoid having food at the tables and make sure any liquids are in spill-resistant containers. The class period is long, so we may have one or two breaks during each session. If you need the restroom or have a personal crisis during class, quietly dismiss yourself as necessary. Your instructor also understands that personal and family emergencies can occur. ASSIGNMENTS Assignments will be posted as we discuss the relevant subject matter in class or earlier and are due typically about 6 days thereafter (before the next class). Due dates for assignments will be shown in Moodle. All submissions must be uploaded to the Moodle space unless otherwise indicated. Please include your name inside all submitted files. If you have a serious health or personal crisis affecting your performance, please let the instructor know as soon as possible. ATTENDANCE AND CLASS PARTICIPATION The students who actively engage with the material in class typically understand and retain much more of the material than those who are just passive. Also, the class is far more interesting and educational to everyone when students share their knowledge and questions in class. To encourage this critical participation, there's an adjustment made to the final course grade based on your participation level. Expectations include asking and answering questions in class, actively contributing to in-class discussions and group activities, aiding other students via the Moodle forums, and sharing other relevant and helpful information. Some of the assignments/activities will involve posting your individual or group work to the forums, which then provides more opportunities to constructively comment on and learn from each other’s work. Enrollment in the course includes the expectation of regular attendance. If you must miss class (especially 5/5 590DW Syllabus. Spring 2019 more than once), please notify the instructor. If your absence may impact your ability to submit an assignment or complete a quiz/exam on time, you must talk to the instructor a minimum of three days before the due date unless the absence is due to an unexpected emergency. Then you must contact the instructor at the earliest opportunity. PREREQUISITES AND ASSIGNED READINGS You should read the assigned material before the class, so you can ask better questions and participate thoroughly in discussions. Some sections may require multiple readings supplemented with class participation to fully understand. There are no mathematics, programming, or computer science prerequisites for this course, so the instructor aims to present the essential topics and tools in an accessible and pragmatic manner. ASSISTANCE, STUDY GROUPS, AND INDIVIDUAL WORK Some of the material is abstract or technical and can be difficult for some students at first. Despite this, with diligence and study you can learn everything you need to be successful in the class. The instructor can provide additional assistance outside the classroom as described above. Also, your instructor permits and encourages students to study together in person or have discussions through Moodle forums to help each other learn and puzzle through the concepts of the course and to help troubleshoot technical problems that may occur using the software. Please take care that your assistance does not go so far as blatantly sharing the answers to assignments. Individual study and skills practice is also critical to developing complete understanding so you can apply these skills in later courses or non-academic computing work. Exceptions: Any assignments for which group submissions are permitted will clearly say so in the instructions. ACADEMIC INTEGRITY Please review and understand the academic integrity policy of the University of Illinois at http://admin.illinois.edu/policy/code/article1_part4_1-401.html. By submitting course materials for grading, you certify that all work presented is your own and has been done by you independently, or as a member of a designated group (for group assignments only). For all group assignments, every group member is expected to contribute substantially to the work, shared as equitably as feasible. If a situation arises where a group member does not participate and contribute substantially, inform the instructor so compensation can be made as necessary. Be aware that the consequences for plagiarism, exam cheating, or other forms of academic dishonesty can be severe. Students who violate University standards of academic integrity are subject to disciplinary action, including a reduced grade, failure in the course, and suspension or dismissal from the University. STATEMENT OF INCLUSION http://www.inclusiveillinois.illinois.edu/chancellordivstmtswf.html#ValueStmt As the state’s premier public university, the University of Illinois at Urbana-Champaign’s core mission is to serve the interests of the diverse people of the state of Illinois and beyond. The institution thus values inclusion and a pluralistic learning and research environment, one which we respect the varied perspectives and lived experiences of a diverse community and global workforce. We support diversity of worldviews, histories, and cultural knowledge across a range of social groups including race, ethnicity, gender identity, sexual orientation, abilities, economic class, religion, and their intersections. 6/5 590DW Syllabus. Spring 2019 DISABILITY STATEMENT To obtain disability-related academic adjustments and/or auxiliary aids, students with disabilities must contact the course instructor and the Disability Resources and Educational Services (DRES) as soon as possible. To contact DRES you may visit 1207 S. Oak St., Champaign, call 333-4603 (V/TTY), or e-mail to disability@illinois.edu. TOPICAL HIGHLIGHTS (not necessarily in this order) • The course will focus on data warehousing and business intelligence fundamentals while learning general-purpose, portable skills that have widespread usage and support across fields of data analytics, data processing, web applications, and scalable “big data” systems. This is both to enable the students’ work in subsequent iSchool technical courses and to develop a marketable job skill. • Learn the basics of business intelligence and information presentation, to help understand why/how to choose delivery method for a given purpose. • Learn to use the fundamental data types and most common data structures (e.g. numeric types, strings, Booleans) with some typical patterns for use. Learn their relationship to analytics. • Learn how to read and create data models. • Perform basic statistical analysis and graphing on data sets. • Learn the steps involved in a data acquisition project for a data warehouse or data mart. • Learn how to interpret functional requirements to produce effective Business Intelligence products. • Hands-on practice with Business Intelligence development products (e.g. Business Objects Web Intelligence, Tableau Desktop, Microsoft Power BI)
+
+
+
+8)
+General Course Information
+Grant Writing for Libraries
+•	IS 590 GW2
+•	Online only
+•	Spring 2019
+•	January 14 - March 11, 2019
+•	Mondays, 6-8 p.m.
+•	Two credit hours
+Instructor:
+Karen Egan, Adjunct Lecturer
+Telephone:  217-341-4852
+kjegan@illinois.edu
+•	Office hours:
+o	In-person and other synchronous appointments may be scheduled in advance by text message 217-341-4852; remember to include your name.
+•	Preferred contact method:
+o	Text messages are fine for quick questions (217-341-4852; remember to include your name). Email is better for in-depth questions.
+Course Description
+An introduction to the craft of writing and submitting successful grant applications. Grant writing is critical for multi-type libraries, nonprofit information entities, and other service-based organizations. Through a combination of individual and group assignments, and peer and instructor review, students will learn how to identify grant sources and strategically target their writing to those sources.
+•	 News and AnnouncementsForum
+•	 IS 590 GW2 Grant Writing for Libraries Course Packet Spring 2019File
+•	 Open DiscussionForum
+•	 Introduce yourself!Forum
+•	 BibliographyFile
+•	Resources to support grant writing.
+•
+For more information about attending, participating, and presenting in your online sessions, check out the Ultra 101 tutorial!
+If you need assistance, please reach out to the Help Desk:
+help@support.ischool.illinois.edu | (217) 244-4903 or (800) 377-1892
+Tech Support Chat Room (during live sessions)
+
+•	 Class Participation All WeeksAssignment
+Along with attendance, participation is part of your grade.  Sharing perspectives and diverse experiences make for a more interesting and richer discussion.  Class participation is part of the learning experience designed to help you understand and master the course content.
+
+
+9)
+
+
+
+
+UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN School of Information Sciences IS590MD: Methods for Data Science Spring 2019 Mondays 1pm-3:50pm iSchool 53 Instructor: Vetle Torvik Office: iSchool 221 Email: vtorvik@illinois.edu; Office Hours: 10am-noon Tuesdays Teaching Assistant: Xiaoliang Jiang Office: iSchool 211 Email: xjiang36@illinois.edu Office Hours: TBA Course Description A dramatic increase in computing power has enabled new areas of data science to develop in statistical modeling and analysis. These areas cover predictive and descriptive learning and bridge between ideas and theory in statistics, computer science, and artificial intelligence. We will cover methods including predictive learning: estimating models from data to predict future outcomes. Regression topics include linear regression with recent advances using large numbers of variables, smoothing techniques, additive models, and local regression. Classification topics include linear regression, regularization, logistic regression, discriminant analysis, splines, support vector machines, generalized additive models, naive Bayes, mixture models and nearest neighbor methods as time permits. Lastly we develop neural networks and deep learning techniques, bridging the theory introduced in the earlier parts of the class to purely empirical methods. We situate the course components in the “data science lifecycle” as part of the larger set of practices in the discovery and communication of scientific findings. Prerequisites are LIS542 Data, Stat, Info, or equivalent (e.g. intro probability/stats STAT100, CS361, or ECON202) and LIS490IDS/CS398ID/STAT490 or CS101 or equivalent; or consent of the instructor. Linear Algebra recommended at the level of MATH125; Calculus recommended at the level of MATH220. Course Objectives The overall goal of this course is to develop a functional data science perspective of the world. More specifically, the objectives are: 1. To gain a broad exposure to data science methods through lectures and discussion. 2. To develop a working proficiency in selected data science techniques through lab sessions, hands-on assignments, and office hours. 3. To nurture the ability to detect opportunities to apply these concepts, principles and techniques in new scenarios by independent exploration of resources beyond the course materials, and, optionally, through a course project. Required Textbook and Software There is no textbook for the class. Notes and reference materials will be made available throughout the semester. Our main textbook is: An Introduction to Statistical Learning, by James, Witten, Hastie, Tibshirani (ISL) With supplemental text: Elements of Statistical Learning, 2nd Edition, by Hastie, Tibshirani, Friedman (ESL) We will use R as the primary computational environment. Some downloadable R manuals: Using R for Data Analysis and Graphics - Introduction, Examples and Commentary by John Maindonald R for Beginners by Emmanuel Paradis An Introduction to R R Data Import/Export R Language Definition Data: http://abel.lis.illinois.edu/data/ Grading The most important standards for success in a class like thi
+
+
+
+10)
+
+
+
+Makerspace
+
+Overview
+This course will introduce you to the principles and tools behind the maker movement.  The maker movement is built on creative exploration of technology.  Makers, in general, are individuals who create or produce something, often combining technology with DIY.  Makerspaces are laboratories created to provide a physical space for makers to come together in the generation, design, and fabrication of these products. In this class we ask you to explore yourself as a maker.  You will learn a variety of rapid prototyping and fabrication techniques placing emphasis on the design and learning processes, along with self-reflection.
+
+Periodically  you will be provided a general project prompt and set to work with a tool area, at the the CU Community Fab Lab, in response to a simple design exploration challenge. Over the course of the semester you will have an opportunity to become familiarity with the basics of several advanced small-scale manufacturing tools, such as laser engravers, electronic cutters, e-textiles, 3D printers/scanners and small board electronics.
+
+You will be split into smaller lab working groups for your hands-on lab time at the Champaign Urbana Community Fab Lab.  These groups will be learning communities for you, but you won't be responsible for doing graded work with this group. You are also expected to come into open hours at the Fab Lab to work on projects by seeking assistance from staff and one another each week.
+
+There will be guest speakers in-class (some we will meet elsewhere) to give you a broader perspective of makers and the maker movement. We may modify speakers based on the class interest and to cover topics as we encounter them.
+
+One main goal of this course is to expose you to fun hands-on assignments that can better prepare them to tackle the kind of projects and challenges you might encounter in the work world, as entrepreneurs or educators, in large companies,  or in settings like small nonprofits.
+Expectations
+Requisite Experience
+This class is designed to be friendly for students who have limited technical background. We expect students to enter with at least basic computer literacy concepts and skills. Assignments will offer opportunities for all students to learn, develop, and apply new skills related to rapid prototyping, programming, and artistic expression. We’re hoping you can all help each other out with your strengths and weaknesses.
+
+
+We expect you to be willing and able to write. While we won’t have any huge papers many assignments will involve some writing. You’ll have to be able to evaluate what you create and be concise as well as learn how to provide visual annotations. We expect you to put thought into your writing, i.e. write something you would want to read!
+
+
+Self-driven exploration. Please note that this course will emphasize self-guided learning and time management, students will need to rely on online tutorials and information resources to explore methods and complete much of the work in a rapid-response fashion. You will get the most of out of each assignment by being curious and trying to hack or learn more about the lab activity.  Try answering questions on your own first (Google), then ask a peer, and finally the instructors and Fab Lab staff.
+Workload
+As you know, this is a 3 hour class but only has 1 hour of scheduled class time.  The other 2 hours will be spent at the Champaign-Urbana Community Fab Lab with your lab group, day & time based on your availability survey results.  We’ll be expecting around (at least) 3 hours of out of class work time from you per week, with some variation depending on where we are in the semester. If you are very new to making or programming you may have to spend additional time exploring and practicing. We know you all lead busy lives and have packed schedules, and we’ll do what we can to remain sensitive to this but still ensure a productive class.
+Attendance
+Show up to class. Your grade for attendance will be rolled up into participation. If you miss a single class for sickness, death in the family, or other kinds of emergencies you should be fine. If you miss more than one class this will impact your performance and contribution, which then your grade will suffer.
+
+
+Show up to your group lab time and STAY FOR THE WHOLE TIME PERIOD. If you cannot attend your normal lab session because of a test, interview or sickness, you can arrange with the TA’s to attend another section, but this should not become regular.
+Participation
+Class will involve discussion, guest lectures, and activities. Lab will involve working through tutorials, projects, peer skill sharing, as well as the explanation of important concepts.  You’ll be expected to be engaged in all of this, at very minimum listening and responding and making, and, for better grade, also collaborating, sharing, questioning and exploring. Some specific examples include:
+•	Asking questions when you are confused or when you think that something is incorrect.
+•	Answering questions, whether they are asked by the instructor or students.
+•	Sharing thoughts, resources or methods during class discussions or on the course discussion forums.
+•	Helping others troubleshoot problems or understand concepts.
+•	 Visiting us for office hours counts for participation too, but you should still engage in class.
+The more people you benefit by your participation, the more credit you get. Come to class with quotes or notes from readings/websites you’d like to talk about, or questions or interesting concepts you’ve discovered.
+
+
+Don’t be afraid to ask “dumb” or “basic” questions. Often class moves too fast or nomenclature goes undefined. Please ask us to slow down, repeat, or clarify information. Others may be wondering the same thing, but are too afraid to ask.
+Flexibility of the Course
+This course is designed to meet students' practical needs and therefore has a flexible structure. This means that as your instructors, we are not only open to your suggestions, but strongly encourage them. If you have feedback or preferences, please let us know, either publicly or privately. You must realize, however, that this means our schedule, and even our assignments, may change over the course of the semester. We’ll do our best to fit the course to the needs of the given cohort and stay organized while doing so. In other words, this class is not rigid, but responsive.
+
+Additionally, many concepts in this class will be interpretive and explorative. If you are a person who needs tests with the ‘right answer’ or require the absolute truth found in mathematical certainty this may not be the best course for you. We will be working with fluid and messy concepts and on projects that will have many unknown variables that require students to shift perspectives.
+Academic Dishonesty
+Any student who we, the instructors, discover to be cheating will automatically and immediately fail the assignment. It is the instructor's discretion whether to report the student's academic dishonesty to university level bodies. Remember, a violation of academic integrity can lead to a student being "suspended or dismissed" from the university (UIUC Student Code Article 1-Student Rights and Responsibilities, Part 4. Academic Integrity, § 1-403 Penalties for Infractions of Academic Integrity). The assignments in this class are very simple and straightforward. It takes minimal effort to do them yourself. Even though they are simple, I hope you all realize the statistical improbability of writing the exact same answer with the exact same spacing, names, etc. as somebody else in the class. Cheating includes, but is not limited to:
+•	Copying someone else's work and turning it in as your own work.
+•	Someone else's work means someone else's work, whether it is the work of your classmate, the work of some anonymous stranger on the internet, etc. You may not copy someone else's work on the internet and turn it in as your own. We will be doing spot checks on the assignments that are turned in.
+•	Copying someone else's work, making minor/cosmetic changes, and turning it in as your own work.
+•	Turning in group work without crediting the group or turning in individual work and crediting the group.
+•	 Allowing another individual to copy your work, and turn it in as their work.
+Any case of intimidation, coercion, etc., will be reported to higher authorities, either campus-level or law enforcement, depending on the situation.
+
+In this course you will often build off of the work of others.  This is commonly called remixing, hacking, or derivative work.  When borrowing the work of others (e.g. images/models, example code, or using an online GUI) you MUST credit your starting point following creative commons license guidelines.
+Required Materials
+There is no textbook for the class. All readings, videos, and tutorials will be available online or via the Moodle site. We’ve put considerable work into finding material that’s relevant, recent or of persistent value, interesting, and not too long.
+
+You will need to become comfortable consulting online tutorials and information resources for much of the material relevant to this class. While there is no studio fee, you will need to find, purchase, borrow or otherwise provide your own materials if you go beyond the basic starter materials for projects.
+Grading
+Grades are a part of the certification aspect of attending a university: a fundamentally necessary but secondary function, they are intended to be a kind of tool that encourages and reflects learning. We don’t want you to get lost in concern about your grade, but also want you to know this isn’t going to be a blow-off course. Do the work, invest time and creativity, make strong contributions and you should do just fine. Your breakdown is as follows:
+•	Lab assignments – 50%
+•	Reading response, iteration/reflection assignment – 16%
+•	Participation – 14%
+•	Final Project – 20%
+Assignments will be graded on a point-based scale that translates directly to its percent. We will take off in half-point increments. Each 24 hour period an assignment is turned in late (starting at the time it is due) it goes down half a point down to a minimum of half-credit. In other words, it’s always worth turning in an assignment no matter how late it is, because you will get some amount of credit. It’s more important to us that you learn and put in the effort. You may, at the instructor’s option, redo an assignment that went badly for more credit.
+Assignments
+The following is a tentative assignment list.
+
+Lab Activities
+Each week you will have a different lab assignment to help familiarize you with a tool, medium or subject area. Some topics will span multiple weeks. For each creation activity you must document and hand-in your work by posting to the class blog.  Blog posts will be due on the day of your lab section, the week after they are introduced to you in section. In other words you will always have a full week or more to work on them.
+•	Two or more in-progress images,
+•	One completed project image
+•	A paragraph of reflection on your making experience.  Use reflection questions for ideas (NO tool based or step-by-step process responses).
+
+Videos, Readings, and Community exploration
+Throughout the semester we will ask you to watch videos online, read articles about makers and makerspaces, go to makerspaces on and around campus, and sometimes write responses to these.
+
+Readings (Select 2 & answer reading forum questions for each) - pull from the list at
+https://drive.google.com/drive/folders/1hXNSHZ4IRZd1QqK8OKBwIPfxRPokkPQh?usp=sharing
+
+Iteration Project
+Once during the semester you to return to a previous project and improve upon it by incorporating feedback from others and leveraging resources online.
+
+Final Project
+
+INFO 490 ML1 (Undergraduate): Your final project allows you to go deeper into the makerspace through either 1.) the creation of a composite project of your own imagination or 2.) learning a new tool and making an excellent tutorial (written or video) with a sample project.  Your final project consists of:
+•	Multiple physical prototypes (or activities example & tutorial)
+•	Presentation to the class during the final exam time period
+•	Reflection on your final project making experience
+
+INFO 490 ML2 (Graduate):  Your final project asks you to go deeper into one of the aspects of makerspaces that we explored in the course. You may explore a theoretical or pedagogical aspect of makerspaces, but we would still like you to produce a physical object to accompany it. Alternately, you could create a making focused project. In either case (theoretical or physical) you will create of a composite project of your own imagination related to your field of study.  We want you to connect making with something you are passionate about. Students may propose an alternative area of focus for instructor approval.  Your final project consists of:
+•	Multiple physical prototypes
+•	Presentation to the class during the final exam time period
+•	Reflection on your final project making experience
+•	A short paper or multimedia (website, video, podcast, game, etc) project on the incorporation or connection between making and your selected academic area and how your project accomplishes this.
+Provisional Schedule + Assignments
+The latest assignment descriptions will be linked off of the Moodle.
+
+Synopsis (% grade):
+1.	Tour + Laser name tag (4%)
+2.	Multi-layer vinyl sticker (6%)
+3.	Copper tape circuits card (6%)
+4.	Reading response (8%)
+5.	3D design, scanning and printing (7%)
+6.	Sewing and digital embroidery (10%)
+7.	Arduino introduction (7%)
+8.	Arduino locomoting pom-pom bot (10%)
+9.	Iteration assignment (8%)
+10.	Final project (20%)
+11.	Participation (14%)
+
+Each lab assignment will have reflection questions that engage specific learning objectives. See https://docs.google.com/document/d/1Iyt-N7Yr-lGdvAw0Itf6Qnf-i09lyGToxXJTAQ63ml8/edit  for these.
+
+
+
+11)
+
+
+
+
+: 329 Information Sciences Building Email: wickes1@illinois.edu Cell phone: look in moodle, I'm not putting this on github (do not call after 9pm) Description: Data sharing and modern open data standards have been creating large repositories of data that remain disconnected. Many data science and machine learning techniques are boosted by incorporating data representing a variety of domains and granularities. Topics on data curation, data cleaning, copyright, web scraping, storage, processing, and automation will be reviewed. This course seeks to explore techniques and perspectives of combining various data sources to create a dataset ready for analysis, but in a project oriented space so that each topic is synthesized with practice and experienced in context. Students will select a project area and explore the technical and conceptual requirements of that project space, eventually producing a proof of concept around it. All project domains and areas are open, with the only requirement being that they combine several data sources into a new dataset. This course is meant for students who have completed at least two semesters of coursework, are comfortable with programming in Python (the project can be completed in any language, but instruction will be in Python), and desire a space to explore and develop a capstone or independent study project. However, further work on the project is not a requirement. Guest speakers and field experts from the University Library will be invited. Students will be encouraged to share and publish their datasets at the end of the semester. Course prerequisites: IS452 or demonstrated programming experience, 20 hours of completed coursework This course is worth 2 credit hours but is still significant work because of your project. You are expected to already have some exposure to each topic area around this project, so there will be very minimal outside readings, etc. This is a completely project oriented class. You will be working entirely on your project in this class. The first IS590ODM: Open Data Mashups Syllabus Instructor information Course description Learning Goals half of the class will quickly get you started on your project and the second half will be you working on your project. Portions of the project will be due throughout the class, so no elements will take you by surprise. identify and assess relevant data sources for a research project process, clean, and quality check datasets combine multiple datasets into one for an analysis process produce quality dataset and project documentation effectively deliver various types of project pitches write effective conference talk proposals provide constructive peer feedback and peer reviews r
+
+
+
+
+12)
+
+
+University of Illinois LIS 590 PD Practical Health Data Analysis - Spring 2019 1 PRACTICAL HEALTH DATA ANALYSIS (LIS 590 PD) Instructor: Dr. Ian Brooks 209 iSchool (217) 333-6080 ianb@illinois.edu T.A. Dr. Thierry Guigma Course Meets: Monday 9:00-11:50 iSchool 12A 4 Credit Hours Office Hours: Tuesday 10:30-11:30 Thursday 10:30-11:30 (or by appointment) Course Website < https://courses.ischool.illinois.edu/ > Plan to regularly check the course website for course materials and announcements. Description This course provides hands-on experience with practical data analysis. Datasets will be drawn from the health sector and will include structured, unstructured, social media, and geospatial data. Students will work in teams to refine the project question, identify the appropriate analytical methods, obtain any necessary supplemental data from online sources, perform the analysis, visualize the results, and present the project to stakeholders. Teams will be assigned based on analytical skill-level from basic statistics to advanced machine learning. Students should have taken an introduction to statistics class, but no prior experience in the health domain is required. Course Learning Objectives By the end of the course, students will be able to demonstrate an understanding of: 1. Working with domain specialists to understand and refine the project question. 2. Identifying the appropriate analytical approach. 3. Identifying and obtaining supplemental datasets e.g. weather, demographics, etc. 4. Transforming and combining datasets. 5. Visualizing the results. 6. Presenting the project to stakeholders with differing technical knowledge.
+
+
+
+13)
+
+
+
+IS490DA: Database Administration & Scaling for IS Syllabus for Spring 2019 Last modified: Jan 4, 2019 School of Information Sciences University of Illinois at Urbana-Champaign NOTE: Details here could be altered during the semester if necessary. Any substantive changes after the semester begins will be announced in class and/or via our Moodle Forums. Co-Instructors: John Weible jweible@illinois.edu & Tom Habing thabing@illinois.edu Always check Moodle for office hours, announcements, and course schedule details. SCOPE AND OBJECTIVES The official course catalog description is: “The course incorporates aspects of database administration and systems architecture relevant to computational information science work. Given the rise of NOSQL systems and big data trends in analytics, the course will explore and compare several types of scalable database engines. Develops practical skills and representative tools for providing reliable and efficient DBMS infrastructure to support activities like data analytics within a context of production systems. Student teams will experiment and present findings to the class.” An unofficial description for students and advising: Students will implement and experiment hands-on with scalable networked database systems in several projects and present their findings. Database systems we’ll likely use include: Neo4j, ElasticSearch, an SQL cluster, and some experience with cloud-hosted databases. Students will also choose another type of database system to use in their final project unit. Also, for external coding that must interface with the databases, students may choose the programming language(s) to use. PREREQUISITES & ENROLLMENT This is a relatively advanced technical course where you will have to read and experiment in many ways. Students are expected to have prior knowledge of: • SQL and relational database design principles (similar to what is taught in IS490DB) • Competence with typical command-line shell tools and operations. • Competence with installing complex software on Mac OS X, Linux/UNIX, or Windows. • Programming experience, such as from taking at least two programming-focused courses. Since the campus Banner system can’t determine these prerequisites, email jweible@illinois.edu with a brief summary of your relevant background to request enrolling. COURSE STYLE & FORMAT This is not a lecture-style course. There will occasionally be brief lecture segments to introduce a topic, but this is coded as “laboratory / discussion” because our in-class time will be primarily: • Seminar discussions, debates, and situational problem solving • Individual and team technical experimentation • Team presentations of your findings to the class 2/4 490DA Syllabus. Spring 2019 You will be learning on your own and from your peers as well as from the instructors. Student-directed investigations are expected and students will be challenged to collaboratively find or create solutions. EXAMPLE COURSE TOPICS (not in order): • Comparison of types of database systems; factors for selecting a type for different situations • Configuring single-instance & multi-node DBMS • Using cloud hosted databases • Automating and verifying backup procedures • Security concerns and practices, log auditing • Provisioning accounts & ACLs. • End user support • Troubleshooting and performance analysis • Data conversion & bulk data loading • Query types • ACID & related concepts • Automated artificial load testing • Scaling, Reliability, Availability (replication, loadbalancing, verifying fault-tolerance, sharding)
+
+
+__________________________________________________
+
+14)
+
+
+
+
+LIS 590PR: Programming for Analytics & Data Processing Course Syllabus for Spring 2019 Last modified: Jan 15, 2019 School of Information Sciences University of Illinois at Urbana-Champaign NOTE: Details here could be altered during the semester if necessary. Any substantive changes after the semester begins will be announced in class and/or via our Moodle Forums. Instructor: John Weible, jweible@illinois.edu Always check Moodle for office hours, announcements, and course schedule details. SCOPE AND OBJECTIVES The official course catalog description is: “Building on the fundamentals introduced in IS 452, this course adds skills, data structures, tools, and patterns needed for developing and modifying software to solve more complex problems and to improve code maintainability and reliability. These skills are relevant to many types of programming, but the primary scenarios covered will involve analysis, conversion, validation, and processing pipelines for data. The course helps prepare students for work on larger projects with multiple developers. Includes test-driven design, more OOP design concepts, refactoring, profiling, introductory parallel processing, and more. Primarily uses the Python language.” CLARIFICATION OF SCOPE: The main purpose of 590PR is to improve your computer programming competence and abilities, moving you further toward professional-level coding. Thus, whenever you apply these skills (in any language) to data science or any other software field, you will be more capable and effective, including in a collaborative environment. Several of our problem scenarios will be representative of data analytics and other forms of data processing, and we will use some software libraries commonly used for data science with Python. But this course does not teach data science, statistics, nor machine learning, per se. It only scratches the surface of “data analytics”. The iSchool also has many other courses, expert faculty, and independent study opportunities through which you can learn much more of those fields in combination with 590PR.
+
+15)
+
+IS 562 AO -- Metadata in Theory & Practice
+Spring 2019
+Thursday, 5:30 - 7:30 P.M.
+Online
+Course Description & Objectives:
+Metadata plays an increasingly critical role in the creation, distribution, management and use of electronic materials. This course will combine theoretical examination of the design of metadata schema with their practical application in a variety of settings. Hands-on experience in the creation of descriptive, administrative and structural metadata, along with their application in systems such as OAI harvesting, OpenURL resolution systems, and digital repositories, will help students develop a thorough understanding of current metadata standards as well as such issues as crosswalking metadata schema, metadata's use in information retrieval and data management applications, and the role of standards bodies in metadata schema development.
+
+Instructor:
+Prof. Timothy W. Cole
+Mathematics Library
+216 Altgeld Hall
+1409 W. Green St.
+Urbana, IL, 61802
+t-cole3@illinois.edu
+Office Hours: Wednesdays, 11:30 AM - 1:00 PM or by appointment.
+Syllabus subject to change at any moment.
+
+
+
+
+16)
+
+IS590DV - Data Visualization
+This is the course website for IS590 Data Visualization in Spring 2019
+•	View On GitHub
+Syllabus
+•	Spring, 2019
+•	126 iSchool, Monday, 9-11:50AM
+•	4 Credit Hours
+•	Instructor: Andrew Christensen
+•	Email: achrist3@illinois.edu
+•	Office: 2019 NCSA Building
+•	Office Hours: Thursday 9AM - 11AM	•	Instructional Assistant: Arjitha Balaji
+•	Email: arjitha2@illinois.edu
+•	Office: 52 iSchool
+•	Office Hours: Wednesday 10AM - 12noon
+•	Instructional Assistant: Krishna Shanker-Rajhan
+•	Email: gs10@illinois.edu
+•	Office: 52 iSchool
+•	Office Hours: Tuesday and Thursday 4PM - 5PM
+•	Jupyterhub: https://jupyterhub.ischool.illinois.edu/
+•	Slack: https://is590dv-spring2019.slack.com/
+•	Moodle: https://courses.ischool.illinois.edu/course/view.php?id=3487
+
+Course Description
+Data visualization is crucial to conveying information drawn from models, observations or investigations. This course will provide an overview of historical and modern techniques for visualizing data, drawing on quantitative, statistical, and network-focused datasets. Topics will include construction of communicative visualizations, the modern software ecosystem of visualization, and techniques for aggregation and interpretation of data through visualization.Particular attention will be paid to the Python ecosystem and multi-dimensional quantitative datasets.
+Course Overview
+This course is designed to give practical advice to students on communicating data through visualization. This will involve a considerable amount of programming, and typically this programming will be done in Python. For the most part, our data will be quantitative and multi-dimensional. The course will aim to provide both an understanding of what data visualizations communicate and a set of tools for constructing them yourself.
+The course will follow a common pattern within each three-hour instructional session. The first 60-90 minutes will be focused on lecture, where concepts and tools will be introduced; typically, each class will focus on one type of visualization or class of visualization. The remaining time will include exploration of a dataset, which may be independent or in groups, and then a wrap-up session at the end.
+Students are expected to have laptops with them, as well as access to Python installations, and will be encouraged to participate in class. Homework will be assigned and collected utilizing the Jupyter nbgrader extension or through other methods specified at time of submission.
+Pre- and Co-requisites
+None, although basic Python programming experience is assumed. A brief introduction to Python will be presented during the course.
+
+

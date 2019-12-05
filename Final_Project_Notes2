@@ -1,0 +1,46 @@
+So far:
+
+-searched through Spring 2019 and culled 17 course description samples from the syllabi of I School classes from
+Spring 2019 with intent to choose 15.
+
+-read in a rough "course description file" as one corpus
+
+-created a word frequency dictionary counter
+
+-checked membership of target word from target word list in file
+
+Next steps:
+
+- I need to revise/clean up the text to include just the course descriptions
+
+- Read the clean file in
+
+- Write out each course description to a separate outfiles (15 of these)
+
+- Figure out the desired format for data output
+
+- Create the design of how the data will be stored in each of the 5 technique outputs
+
+- So, for each of 15 course descriptions -> 5 different outputs (1 for each
+technique), each output designed in same fashion
+
+
+
+- Do stuff to infile
+
+    Test out Text Summarizing Algorithms
+
+
+- Write each result of each algorithm to a separate outfile
+
+
+- Compare results of each technique looking at each outfile side by side
+
+
+- Use .py file and iterate as needed (make modifications manually adding code bits and bobs if needed to get to supreme output)
+
+
+- Yield "Beautiful File" with the Final Working Program Results!
+
+
+- Write functions to distill down to desired single output (the end made product)

@@ -1,0 +1,35 @@
+I am investigating the feasibility of extracting skill sets taught based on course descriptions defined within syllabi. I am comparing different text summarization algorithms to see how
+they perform against one another.
+
+##Step one: Choose a sampling of courses within the iSchool program as test data.
+>>
+
+I chose to draw from a given semester (Spring 2019).
+
+##Step two: Find the "relevant" information.
+>>
+
+In this step, it became clear that not all courses label their "course description" information in a formal and consistent
+way. It's also true that syllabus are not located in the same place and in a couple instances are hard to locate altogether (at least as an outsider).
+
+Once locating the information, I reviewed to get a sense of what kinds of information was included in a syllabus. It appeared that in some cases,
+information that could be useful in understanding more about the course topics and skills were listed in a section that was not labeled as "Course Description" and in
+some cases was not labeled in a formal section per se.
+
+I considered how I could programmatically break up the information but because of all of the inconsistencies, I ultimately ended up taking on the next step manually.
+
+I considered reading it in as a string and splitting on "course description" (cleaning, lower casing..) but the text was too inconsistent across entries to be useful this way.
+
+I considered splitting on the "Non-useful" info substrings in a similar way to "rule-in" more information (basically getting rid of the head and the tail) but even the non-useful info wasn't
+consistent and reliable enough.
+
+
+
+##Step three: Cull drafts of Syllabi sifting out relevant information from irrelevant information
+>>
+
+This mainly consisted of chunking out irrelevant parts of syllabi with calendar info, contact information and policies.
+
+
+
+

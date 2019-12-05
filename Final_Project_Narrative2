@@ -1,0 +1,20 @@
+My first step after coming up with the idea (which stemmed from [explain problem I encountered personally and set out
+to solve here] was to figure out where to find data on the course content. Syllabi and course catalog information seemed
+like good places to start as they often detail course informations that includes requirements, objects, and outcomes. I went to [add site
+here] and sought out information contained within syllabi under titles such as [course description, ...]. I created a rough document with a sampling
+of course content descriptions selected from Spring 2019 course listings to test.
+
+Next, I began to look at the information and continue to cull looking for what kind of data might be important to include. One of the challenges I encountered was
+the variation in how each course describes the content and where that information is held. The large degree of variation required me to include more information to
+begin with and then to inspect that information to see what held true across courses to consider how to structure the data and build the model.
+
+I tried many different approaches to grabbing this data and selecting out pertinent information. I was not successful in finding a way
+to split on the text.
+
+I decided to begin researching the techniques to see if thinking about the problem from possible ways of handling the information after selecting
+out the relevant chunks might be helpful.
+
+I began by reading articles on text summarization techniques and learning about the difference between extraction and abstraction techniques
+Extraction techniques rely on the words within the text to draw out meaning while abstraction techniques use more complex methods with
+more complex associated challenges to go beyond the actual words to draw meaning. I will be focusing on extraction methods.
+

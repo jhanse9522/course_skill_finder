@@ -1,0 +1,23 @@
+My objective is to create a job market friendly tool centered around skill acquisition. It retrieves skill sets
+offered by individual courses for students to both have the ability to review courses taken and more readily guide their course choices
+toward a toolkit-focused model of preparedness to accommodate their needs for adaptability in a marketplace where graduates
+in class selection when preparing for jobs whose potential job descriptions may not even been written yet. Skill set building and modularity are crucial features
+of any program preparing students for the realities of the working world now and in the years to come. This program would easily and enjoyably
+allow the user to discover which courses offer the skills they are most interested in acquiring for their personal path to success.
+On a larger level, I'm interested in developing a way for students, professors, advisers, recruiters and hiring managers to communicate
+through the language of course-based skill sets. Ideally, a course could be plugged in and one could discover which skills are associated with it.
+Did/should the student/candidate take the course? The program can help the user discover more about the content of the course to
+help the user make a decision or take the next step in the journey.
+
+I am planning to build a proof of concept to test out the functionality on a small scale. I draw from a sample pool of 15 courses
+I've selected from the iSchool courses website to discover the top skills based on key words entered
+I start with skill based key words found in the pool. I build a word frequency dictionary of target words which represent skills and develop a
+target word (skill) list based on review of the course descriptions which the code can retrieve (word and count).
+(This would be an area for later development in reality.)
+
+Next, I will test out text summarization techniques of course descriptions to understand
+the skill sets described in course descriptions.
+
+
+
+

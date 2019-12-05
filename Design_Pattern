@@ -1,0 +1,52 @@
+
+# Read in big doc of 15 syllabus entries as string
+# Transform string into list of 15 string entries, Split on "course_title"
+# Loop over list of 15 records
+# Create list of words from each record
+# Loop over words
+# Normalize words [.lower()]
+
+
+for record in entries:
+    words = record.split()
+        for word in words
+
+# Do things to words that you need to do  ->
+
+# Create word text string to pass in to tokenizers, etc
+
+_______________
+
+See below for pattern of data and how to isolate entries:
+
+
+ -- Sample Entry --
+course_title    <- target b
+alt_title_2_blah
+end_title_line
+other_stuff
+other blah blah instructor name
+blah blah contact info
+blah blah schedule
+course_description     <- target a
+blah blah
+blah blah
+
+-- Sample Entry --
+
+course-title <-target b
+alt_title_2_blah
+end_title_line
+other_stuff
+other blah blah instructor name
+blah blah contact info
+blah blah schedule
+course_description     <- target a
+blah blah
+blah blah
+
+
+... and so on
+
+
+Note to self: target info is after "course_description" and before "course_title

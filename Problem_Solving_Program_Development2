@@ -1,0 +1,82 @@
+1. Problem Analysis:
+
+College courses teach skills and syllabi contain information pertaining to skills taught.
+
+Example application:
+
+Graduates who have taken college courses or prospective students considering what courses to take may be interested in
+extracting skillsets information from course descriptions.
+
+The challenge:
+
+How do we derive skill-based information from syllabi?
+
+Inputs/Outputs:
+
+Input:
+
+Course Syllabi
+
+Output:
+
+Skills ideally (Conceptually)
+Defined: High-Ranked Relevant Words, Summary Sentence, Named Entity Recognition
+
+
+2. Program Specification:
+
+The program will take in a course name/syllabus as a text string and understand the skillsets described in course
+descriptions to produce skill sets taught.
+
+
+3a. Design:
+
+bag of words
+
+Ask user for name of File
+Read in File
+Note: Input is a list of sentences as strings
+Remove stopwords
+Clean text
+Tokenize
+Count frequency of words
+Get unique set of words and their frequencies
+Initialize vectors for sentences
+Increment vector value if sentence has word respectively
+
+Output top 10 words
+
+
+3b. Design
+
+summary sentence
+
+Ask user for name of File
+Read in File
+Tokenize
+Lemmatize words
+Tag Parts of Speech
+Customize for bulletpoint? as sentence, importance
+Compare sentences to each other two at a time
+Rank for similarity
+
+Output summary-sentence
+
+3c.
+
+NER Result
+
+Ask user for name of File
+Read in File (detail expanded out in Design Pattern)
+Tokenize
+Lemmatize words
+Tag Parts of Speech
+Customize for bulletpoint? as sentence, importance
+
+Compare Named Entities and Rank for importance
+
+Output NER Result
+
+
+
+
