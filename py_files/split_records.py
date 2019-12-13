@@ -1,4 +1,4 @@
-fhand = open("play_syllabus_prototype")
+fhand = open("DPS_Stage4")
 filein = fhand.read()
 
 records = filein.split("course_title")  #splits text into records (list of strings)
