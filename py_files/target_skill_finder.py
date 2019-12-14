@@ -1,4 +1,4 @@
-filein = open("syllabus_project", "rt")
+filein = open("DPS_Stage4", "rt")
 
 my_file = filein.read()
 

@@ -1,8 +1,14 @@
-fhand = open("DPS_Stage4")
-filein = fhand.read()
+from pathlib import *
+current_dir = Path.cwd()
+home_dir = Path.home()
 
+print("current_dir:", current_dir)
+print("home_dir", home_dir)
 
-    # course description substring
+paths = []
+
+for p in paths:
+
 
 
 records = filein.split("Course_Title:")  #splits text into records (list of strings)
@@ -19,24 +25,3 @@ print("records sample checks:")
 print("records[0]:", records[0])
 print("records[1]:", records[1])
 print("records[2]", records[2])
-
-#lines = filein.split("\n")
-
-#for line in lines:
-   # if "course_description" in line:
-        #print(line)
-
-# course_descriptions = filein.split("course_description")
-#
-# #print(course_descriptions)
-#
-# for description in course_descriptions:
-#     print(description)
-#     print("next")
-
-
-
-
-
-
-

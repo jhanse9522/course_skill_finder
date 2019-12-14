@@ -1,0 +1,26 @@
+Directories:
+
+-- data_extraction
+
+    -design pattern -- shows the design/shaping of the culled data
+
+-- Process
+
+    -Notes about process
+    -Narrative
+    -Problem Solving Program Development
+
+
+-- data_gathering [the Cull files]
+
+    -4 Stages (Data_Prototype_Stage1, DPS_Stage2, DPS_Stage3, and DPS_Stage4)
+    - Data brought in from courses website (put link here)
+    - Final Cull = DPS_Stage4
+
+-- Final_Project_Process
+
+-- py_files
+
+    - any PyCharm code files
+    -final data .txt file (DPS_Stage4) for access
+

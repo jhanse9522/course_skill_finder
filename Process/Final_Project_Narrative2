@@ -1,0 +1,150 @@
+-Final Project Narrative-
+
+
+
+My first step after coming up with the idea (which stemmed from [explain problem I encountered personally and set out
+to solve here] was to figure out where to find data on the course content. Syllabi and course catalog information seemed
+like good places to start as they often detail course informations that includes requirements, objects, and outcomes. I went to [add site
+here] and sought out information contained within syllabi under titles such as [course description, ...]. I created a rough document with a sampling
+of course content descriptions selected from Spring 2019 course listings to test.
+
+Next, I began to look at the information and continue to cull looking for what kind of data might be important to include. One of the challenges I encountered was
+the variation in how each course describes the content and where that information is held. The large degree of variation required me to include more information to
+begin with and then to inspect that information to see what held true across courses to consider how to structure the data and build the model.
+
+I tried many different approaches to grabbing this data and selecting out pertinent information. I was not successful in finding a way
+to split on the text initially. This proved to be a substantial hold up in my process.
+
+I decided to begin researching the techniques to see if thinking about the problem from possible ways of handling the information after selecting
+out the relevant chunks might be helpful.
+
+I began by reading articles on text summarization techniques and learning about the difference between extraction and abstraction techniques
+Extraction techniques rely on the words within the text to draw out meaning while abstraction techniques use more complex methods with
+more complex associated challenges to go beyond the actual words to draw meaning. I planned to focus on extraction methods.
+
+In order to think about the problem, I came up with a series of steps and stages which we learned about in Zelle.
+
+Here's my outline of thought for the problem solving and program development:
+
+.......................................
+
+-Problem Analysis-
+
+
+College courses teach skills and syllabi contain information pertaining to skills taught.
+
+Example application:
+
+Graduates who have taken college courses or prospective students considering what courses to take may be interested in
+extracting skillsets information from course descriptions.
+
+*The challenge:
+
+How do we derive skill-based information from syllabi?
+
+Inputs/Outputs:
+
+Input:
+
+Course Syllabi
+
+Output:
+
+Skills ideally (Conceptually)
+Defined: High-Ranked Relevant Words, Summary Sentence, Named Entity Recognition
+
+
+-Program Specification-
+
+The program will take in a course name/syllabus as a text string and understand the skillsets described in course
+descriptions to produce skill sets taught.
+
+
+- Design -
+
+3a.
+
+bag of words
+
+Ask user for name of File
+Read in File
+Note: Input is a list of sentences as strings
+Remove stopwords
+Clean text
+Tokenize
+Count frequency of words
+Get unique set of words and their frequencies
+Initialize vectors for sentences
+Increment vector value if sentence has word respectively
+
+Output top 10 words
+
+
+3b.
+
+summary sentence
+
+Ask user for name of File
+Read in File
+Tokenize
+Lemmatize words
+Tag Parts of Speech
+Customize for bulletpoint? as sentence, importance
+Compare sentences to each other two at a time
+Rank for similarity
+
+Output summary-sentence
+
+3c.
+
+NER Result
+
+Ask user for name of File
+Read in File (detail expanded out in Design Pattern)
+Tokenize
+Lemmatize words
+Tag Parts of Speech
+Customize for bulletpoint? as sentence, importance
+
+Compare Named Entities and Rank for importance
+
+Output NER Result
+
+
+................................................................
+
+This outline served as an initial mapping workflow for my thought process. However, I wasn't able to make it to the finish line. I worked through all stages to the best of my ability without
+completely abandoning good mental health practices.
+
+I worked on trying to understand my problem and the parts of the problem. I could see that I needed to consider many components, starting with extraction process.
+
+I realized I needed to pan back out and think about how I was going to bring my data in.
+
+I used a sample of 15 syllabi from a text file. The data went through a 4 stage manual culling process. I realize in retrospect that there were better ways to do this but at the
+time I was trying to find anyway I knew how to get the information into any working order to start to explore it. (we had just started to learn about web grabbing at the time). I grabbed from a larger file of syllabi so that I could cull down to 15 semi-structured
+samples for the purposes of the project. They still are different and posed plenty of challenges even after the 4 stage cull.
+
+I spent time just learning about NLP and techniques used. This was a considerable amount of the investigative process for me. Since it was all new, this was a formidable challenge to begin to
+unpack. I then began to learn about the libraries -- NLTK (using Natural Language Processing with Python by O'Reilly) which helped in some ways but felt like the never ending vortex in others and I realized
+how easy it can be to get lost in the weeds if you're not careful. I might have met a weed or two or 27.
+
+I learned about Spacey and how these libraries work together. One challenge was trying to figure out how "under the hood" to get in learning how these libraries worked or what was happening in the
+objects I wanted to use. I researched examples and tested it out on my own, getting away from the project and context to just focus on how some of the concepts
+worked in general. Then after coming up for air, I tested out on my sample prototype data. I had some challenges both loading Spacy and getting NLTK to work but I succeeded finally with some
+help! I learned about git and Github which I had experience with but definitely needed a refresher. I relearned how to use branches for instance and the basics of pushing, merging, and realizing
+how its working locally to remotely. I got my project up and learned how to use Github Desktop, which was amazingly simple after I started using it. I couldn't believe what I had missed out on. I'm still glad
+I have the lessons because I think it has helped me to conceptualize what's happening better. These were some definite wins.
+
+However, after working and playing for a while with functions on test data, I would try to "grab" my actual data and I still had challenges which was discouraging as I thought I had this part
+down. I was introduced to pathlib as well and I spent time getting familiar with the documentation yet I still had trouble understanding how to grab file paths. I understood how it treats
+files as objects and so allows one to access attributes/methods like reading/writing, etc but I still had confusion over how to pull the paths in the first place.
+
+Also, when I got my data read in and transformed into a list of records (syllabi info), I tried to write out those files separately/individually in the way we used the pattern for the
+midterm. I created a list of filenames (course names), set up a reference range loop the length of the list of records and tried to write out the individual records to files I created naming them
+accordingly.
+
+So much of the "figuring out" process felt like standing still and it's hard to put into words some of the learning that was happening but some successes and applications that
+connect back to learning from class include for example using keywords, list comprehensions, decision structures and membership checking inside a for loop to get out a list of
+no_stop tokenized words or using regex to clean punctuation. I try to keep in mind how much I have learned in this time (those are some that I was just looking at in
+one example alone) and one thing I'm looking forward to is using the skills to develop this project in others now that I have a better handle on the basics. I do
+feel ultimately empowered if discouraged by not getting where I'd hope to get with my first project.
