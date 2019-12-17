@@ -1,6 +1,5 @@
 import pathlib
 
-
 fhand = open("DPS_Stage4")
 
 
@@ -16,7 +15,8 @@ records = filein.split("Course_Title:")  #splits text into records (list of stri
 records.pop(0) # pop off trash in beginning
 print("records[3], a test:")
 print(records[3])
-print("DONE!")
+print("DONE WITH TEST!")
+print("----------------------------------------")
 
 #for record in records:
 
@@ -51,3 +51,13 @@ for p in paths:                                     # for each file (path object
     print(text[:100])                               # print first 100 characters
     print("done")
     print("-----------------------------------------------------------------------------------------------")
+
+    # blob = text.split("Course_Description")
+    # print("length of blob is...")
+    # print(len(blob))
+    # print("printing item 0 of list:")
+    # print(blob[0])
+    # print("printing item 1 of list:")
+    # if len(blob) > 1:
+    #     print(blob[1])
+    print("---------------------------------------------------------------------------")
