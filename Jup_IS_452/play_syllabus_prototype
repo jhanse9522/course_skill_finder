@@ -1,0 +1,279 @@
+course_title
+
+IS 452AG/AU Foundations of Information Processing
+end_title_line
+other_stuff
+•	Instructor: Nigel Bosch
+•	Office: 4040 NCSA (National Center for Supercomputing Applications)
+•	Email: pnb@illinois.edu
+
+course_description
+This course covers the common data and document processing constructs and programming concepts used in library and information science. The history, strengths and weaknesses of the techniques are evaluated in the context of our discipline. These constructs and techniques form the basis of applications in areas such as bibliographic records management, full text management and multimedia. No prior programming background is assumed. The first half of the course will focus on programming essentials in Python, and the second half will have us explore other applications and how to integrate the fundamentals to solve more complex problems.
+Informal learning goals
+The following are more 'educational wins' rather than formal learning goals. Of course I hope that you learn how to program in this class, but not everyone taking the course wants to program after taking the class. So why is this still a valuable class for you to take? Read on.
+Minimal Wins
+•	Evaluate programming book and resource searches and/or bookstore selections
+•	Understand some memes you didn’t before
+•	Run a reference interview for a patron who comes to you wanting to learn how to program
+•	Critically evaluate or write a reality-based technical job description
+•	Speak confidently about technical concepts and tools in consultations or job interviews
+Moderate Wins
+•	Hold stronger & more productive conversations with developers
+•	Act as a bridge between programmers and non-programmers (this is a false binary, but I'll deal with it for the sake of brevity)
+•	Confidently engage with developers and other IT staff with technical jargon and detail
+•	Detect vendor hand waving and other crap
+•	Evaluate the usefulness and applicability of potential technical tools (e.g. an open source command line tool)
+Big Wins
+•	Identify a programming problem and take steps toward writing a program to solve it
+•	Make use of more technical tools, or technical features of tools you currently use (e.g. SQL in Access, RegEx in text editors, etc.)
+•	Continue self study of programming
+•	Succeed in further programming coursework
+•	Do some coding!
+
+
+
+course_title
+IS590WFO Web Development Using Application Frameworks
+end_title_line
+other_stuff
+Instructor
+Kevin Trainor
+Teaching Assistant
+Roger Ho
+Contacting the Instructor or Teaching Assistant
+The preferred method for contacting either Roger or me is by entering a request using
+the Request Center portal for this course. PLEASE, DO NOT send requests to our
+regular email addresses.
+The Request Center portal for this course has been implemented using the iCourse –
+JIRA Service Desk. If you are new to using the service desk, please visit the introduction
+page for instructions and tips.
+On an emergency basis, you may contact me using my mobile phone number:
+847-650-9706.
+Online Lab Sessions
+On Tuesday evenings from 6:30 PM to 7:30 PM, we will have an optional Online Lab
+Session using the Blackboard Collaborate Ultra platform. These sessions are a great
+opportunity to get help with your coding assignments, your Framework Evaluation Paper,
+or with your Final Project. Lab Sessions will take place in our normal Blackboard
+Collaborate Ultra classroom. Please use a headset.
+
+
+course_description
+A course in the use and evaluation of Web application frameworks for system architects,
+designers, and developers.
+
+Detailed Course Description
+Today, many substantial Web applications are designed and built using a Web
+application framework. These frameworks provide standard ways to build and deploy
+Web applications that can increase developer productivity, increase software quality,
+and reduce application maintenance. Web frameworks typically use architectural
+patterns like Model-View-Controller (MVC) to separate code that implements the data
+model, business rules, and user interface. Frequently, they also employ architectural
+patterns like a database persistence layer to greatly simplify database coding within the
+Web application. Other common features of Web application frameworks include built-in
+support for Web page templating, user authentication/authorization, content caching,
+URL mapping, session management, Web services, and various content management
+features.
+
+This course will explore the common features of Web application frameworks in general
+while providing hands-on experience using Django, a popular open-source Web
+application framework based on Python. Students will complete a series of coding
+assignments that build Django design/development/deployment skills while providing
+insights into standard features of Web application frameworks. In the final project, each
+student will design and build a full-featured Django Web application to address a
+problem of her/his own choosing.
+The audience for this course includes system architects, designers, and developers who
+wish to consider a Web application framework as a platform for creating substantial Web
+applications. These include business applications, digital libraries, institutional
+repositories, and research data repositories, as well as workflow applications for data
+collection, data extraction, data cleaning, and data analysis.
+Prerequisites
+• Experience in creating static Web sites using HTML and CSS
+• Experience in Python programming (IS452 or equivalent)
+• Experience in creating dynamic Web sites using tools like PHP is helpful but not
+required.
+• Experience in using relational databases is helpful but not required.
+
+
+Course_Outcomes
+
+After completing this course, you should be able to:
+1. Identify the advantages of using a Web application framework when designing,
+developing, and deploying a Web application.
+2. Identify common features of Web application frameworks in general.
+3. Explain how the specific features of Django correlate with common Web
+application framework features.
+4. Design, code, test, and deploy Web applications that use Django features for:
+a. Models
+b. Templates
+c. URL Mapping
+d. Views
+e. Forms
+f. User authentication/authorization
+g. Session management
+5. Design, code, test, and deploy a full-featured Django application to solve a
+problem of your own choosing.
+6. Evaluate the suitability of a particular Web application framework based upon an
+anticipated set of non-functional requirements.
+Instructional Methods
+• Reading
+• Online lecture/discussion sessions using Blackboard Collaborate Ultra
+• Video tutorials
+• Text-based online discussion via Moodle forums
+• Online Lab Sessions using Blackboard Collaborate Ultra
+• Designing, coding, testing, and deploying a full-featured Django application
+IS590WFO – Web Development Using Application Frameworks Page 3 of 7
+Required Text
+Pinkham, A. (2016). Django Unleashed. Pearson Education.
+Print ISBN: 9780321985071
+eBook ISBN: 9780133812398
+Technology Requirements
+You will be completing coding assignments and conducting your final project using your
+own computer. I recommend that you use a computer that runs Windows 10 or a recent
+release of MacOS. While the software that we will be using for this course does run on
+Linux computers, there will be substantially less technical support available for Linux. If
+you want to use a Linux computer for your coursework, please contact me first.
+You will be installing the following software on your computers for this class:
+• The PyCharm integrated development environment (IDE) for Python
+• The Anaconda open data science platform for Python
+• The Git version control system
+• The SourceTree client for Git
+You will be deploying some of your coding assignment solutions to a cloud-based
+Django hosting facility provided by Python Anywhere. Free accounts are available from
+Python Anywhere that have all of the capabilities that you will need during the course.
+All of the software and services that you will be using are free for your use during this
+class. I have recorded detailed tutorial videos to help you download, install, and begin
+using the required software on computers running Windows 10 and recent releases of
+MacOS. Links to these resources will be provided in our Weekly Schedule.
+Course Schedule
+The schedule for this course will be available via our Weekly Schedule at:
+https://courseinfo.ligent.net/2018fa/_illinois/is590wfo/index.html
+The course schedule is always subject to reasonable change to account for changes in
+circumstance and to correct errors. When I make changes to the schedule, I will
+announce them via the Moodle Announcements Forum.
+
+
+Course_Elements
+
+1. Readings
+Required readings will be assigned from the resources listed above and from other
+resources that will be identified in the Weekly Schedule. Generally, readings are
+chosen to accompany our online lecture/discussion session for the week. So, you
+should expect to complete the readings before class.
+Optional readings will be assigned from time to time. These will typically represent
+alternate expressions of the same material, or interesting supplementary topics.
+IS590WFO – Web Development Using Application Frameworks Page 4 of 7
+2. Tutorial Videos
+I will be providing a series of tutorial videos that show a skill being practiced using
+the PyCharm IDE and related software tools. Typically, you will be assigned a
+parallel coding assignment in the same week that can be accomplished using the
+approach demonstrated in the video.
+3. Coding Assignments
+There will be Coding Assignments approximately weekly. As mentioned above,
+coding assignments will often be paired with tutorial videos. These should allow you
+to complete your Coding Assignment using the same approach that has been
+demonstrated in the video.
+A Moodle dropbox will be provided for submitting each assignment. Instructions for
+each Coding Assignment and a grading rubric will be published in the Weekly
+Schedule.
+Solutions to the Coding Assignments will be reviewed at the start of our next class. I
+will ask for one or two student volunteers to present their work and we will discuss it
+(constructively and supportively). Then, I will present my version of the assignment
+solution (never perfect) and we will discuss that as well. The real learning comes
+from the combination of having attempted to solve the coding assignment and the
+subsequent discussion. Those who have really done the work before the class
+discussion of the assignment will get that benefit. Those who wait and do the work
+later will get a greatly reduced benefit. Having seen our solutions, they will miss out
+on the benefit of having tackled one of these problems on their own.
+A major goal for this course is to build your proficiency in self-evaluation of your work.
+To build this skill, I will expect you to be able to estimate your grade on each Coding
+Assignment. After each Coding Assignment, we will review solutions during our next
+class. Further, I will publish a copy of my solution on our Moodle page. These
+published solutions and solution discussions will serve as your primary feedback for
+the Coding Assignment.
+As secondary feedback, your Coding Assignment submissions will be graded and
+commented upon. This feedback will be published to the Moodle assignment
+submission activity within approximately 2 weeks.
+While separate grading rubric and assignment submission instructions documents
+will be published, the following is a summary of the grading rubric features for coding
+assignments:
+• 10 points will be awarded for submitting a single, properly named, properly
+organized, and gradable file to the proper Moodle assignment submission
+activity.
+• A minimum of 75 points will be awarded for submissions that are submitted
+on time, and that demonstrate a good faith effort on all parts of the
+assignment. Late submissions will be awarded 74 points or fewer in this
+category.
+IS590WFO – Web Development Using Application Frameworks Page 5 of 7
+The implication of this grading scheme is that you can expect a score of 85 or higher
+on all Coding Assignments that meet both of these criteria.
+4. Participation
+a. You are expected to read all of the posts made in all of the discussion forums
+and respond with short posts when appropriate.
+b. On Tuesday evenings from 6:30 PM to 7:30 PM, we will have an optional
+Online Lab Session using the Blackboard Collaborate Ultra platform. For more
+details, see Online Lab Sessions above.
+Participation grades will be based upon the number of participation points earned
+during the semester. These are the activities through which you can earn
+participation points:
+5. Framework Evaluation Paper
+Each student will write a paper presenting the conclusions of their evaluation of the
+suitability of a candidate Web application framework (other than Django) for a set of
+functional and non-functional requirements which they could reasonably expect to
+encounter in the workplace. Your paper should be about 1500 to 2000 words. In
+addition, you will need to cite a minimum of 10 sources.
+Detailed instructions and a grading rubric for the Framework Evaluation Paper will
+be published separately.
+6. Final Project
+You will be expected to plan, gather requirements for, design, code, test, and
+deploy a Web application using Django as your Final Project. Detailed instructions
+and grading rubric for the Final Project will be published separately. The following
+are highlights from those requirements:
+• The Web application should fully demonstrate the Web application
+framework features covered in the class.
+• The Web application should include significant add/change/delete database
+functionality.
+• The Web application should be sufficiently interesting to you that you are
+likely to continue to develop and maintain after the course is complete.
+
+
+
+
+course_title
+IS590ADV Advanced Data Viz
+end_title_line
+other_stuff
+This is the course website for IS590ADV in Spring 2019
+•	View On GitHub
+Syllabus
+•	Semester, YYYY
+•	LIS 242, 1:00PM-3:50PM, Mondays
+•	4 Credit Hours
+•	Instructor: Matthew Turk
+•	Email: mjturk@illinois.edu
+•	Office: 222 LIS (501 E Daniel)
+•	Office Hour: By appointment
+•	Preferred Contact Method: email	•	Shared Papers: https://paperpile.com/shared/W47CwV
+
+course_description
+In this seminar-style course we will discuss advanced topics in visualization techniques. This will cover topics such as the history of visualization techniques, the perception and understanding of visual information, and new frontiers in displaying quantitative information. We will explore the modern technical stack for creating and sharing visualizations, including topics in javascript, python, and reactive frameworks.
+Course Overview
+This course will include a number of technical tasks, but will additionally be focused on the aesthetic and high-level understanding of visualization. We will discuss in depth new trends in visualization as well as evidence-based studies of how to develop better visualizations.
+Students are expected to have laptops with them, as well as access to Python installations, and will be encouraged to participate in class. Homework will largely be in the form of projects and open-ended assignments. Class participation will not determine grades but is expected to guide discussions; students are expected to participate and share thoughts, ideas, and suggestions.
+Pre- and Co-requisites
+No explicit prerequisites are required. Students are expected to have taken standard programming courses. Students are expected to either be familiar with, or be prepared to familiarize themselves with, Python, Javascript, GitHub, and other computational tools. Haven taken Data Viz (IS590DV) is optional, but encouraged.
+Land Acknowledgment
+As a land-grant institution, the University of Illinois at Urbana-Champaign has a responsibility to acknowledge the historical context in which it exists. In order to remind ourselves and our community, we will begin this event with the following statement. We are currently on the lands of the Peoria, Kaskaskia, Peankashaw, Wea, Miami, Mascoutin, Odawa, Sauk, Mesquaki, Kickapoo, Potawatomi, Ojibwe, and Chickasaw Nations. It is necessary for us to acknowledge these Native Nations and for us to work with them as we move forward as an institution. Over the next 150 years, we will be a vibrant community inclusive of all our differences, with Native peoples at the core of our efforts.
+More information can be found on the Chancellor’s Website.
+Course Overview
+The central themes of the course are:
+1.	What are currently-understood best practices for constructing meaningful and beautiful visualizations?
+2.	What is the “cutting edge” of software stacks for visualization?
+3.	What theoretical approaches to visualization can we utilize to improve our ability to understand data?
+
+
+
+
+
+
+
+
