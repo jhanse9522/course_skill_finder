@@ -24,3 +24,16 @@ Directories:
     - any PyCharm code files
     -final data .txt file (DPS_Stage4) for access
 
+-- Jup_IS_452_1
+
+    - any jupyter notebook data processing file
+
+-- Jup_IS_452
+
+    - ignore
+
+-- Plumbing
+
+    - plumbing file (work in progress)
+    - trial file
+
