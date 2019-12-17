@@ -1,0 +1,41 @@
+
+
+
+IS590ADV Advanced Data Viz
+This is the course website for IS590ADV in Spring 2019
+•	View On GitHub
+Syllabus
+•	Semester, YYYY
+•	LIS 242, 1:00PM-3:50PM, Mondays
+•	4 Credit Hours
+•	Instructor: Matthew Turk
+•	Email: mjturk@illinois.edu
+•	Office: 222 LIS (501 E Daniel)
+•	Office Hour: By appointment
+•	Preferred Contact Method: email	•	Shared Papers: https://paperpile.com/shared/W47CwV
+
+Course_Description
+In this seminar-style course we will discuss advanced topics in visualization techniques. This will cover topics such as the history of visualization techniques, the perception and understanding of visual information, and new frontiers in displaying quantitative information. We will explore the modern technical stack for creating and sharing visualizations, including topics in javascript, python, and reactive frameworks.
+Course Overview
+This course will include a number of technical tasks, but will additionally be focused on the aesthetic and high-level understanding of visualization. We will discuss in depth new trends in visualization as well as evidence-based studies of how to develop better visualizations.
+Students are expected to have laptops with them, as well as access to Python installations, and will be encouraged to participate in class. Homework will largely be in the form of projects and open-ended assignments. Class participation will not determine grades but is expected to guide discussions; students are expected to participate and share thoughts, ideas, and suggestions.
+Pre- and Co-requisites
+No explicit prerequisites are required. Students are expected to have taken standard programming courses. Students are expected to either be familiar with, or be prepared to familiarize themselves with, Python, Javascript, GitHub, and other computational tools. Haven taken Data Viz (IS590DV) is optional, but encouraged.
+Land Acknowledgment
+As a land-grant institution, the University of Illinois at Urbana-Champaign has a responsibility to acknowledge the historical context in which it exists. In order to remind ourselves and our community, we will begin this event with the following statement. We are currently on the lands of the Peoria, Kaskaskia, Peankashaw, Wea, Miami, Mascoutin, Odawa, Sauk, Mesquaki, Kickapoo, Potawatomi, Ojibwe, and Chickasaw Nations. It is necessary for us to acknowledge these Native Nations and for us to work with them as we move forward as an institution. Over the next 150 years, we will be a vibrant community inclusive of all our differences, with Native peoples at the core of our efforts.
+More information can be found on the Chancellor’s Website.
+Course Overview
+The central themes of the course are:
+1.	What are currently-understood best practices for constructing meaningful and beautiful visualizations?
+2.	What is the “cutting edge” of software stacks for visualization?
+3.	What theoretical approaches to visualization can we utilize to improve our ability to understand data?
+Course Materials
+There is no textbook for this course. All course materials will be posted to the GitHub repository at https://github.com/UIUC-iSchool-DataViz/spring2019-adv/
+As the course progresses, a list of recommended readings will be generated for each class. These will be included in the course materials repository, and students are encouraged to fork that repository and issue pull requests to add suggested readings.
+About your instructor
+Matthew Turk is an Assistant Professor at the School of Information Sciences. His training was in Astronomy, where he conducted simulations of the formation of the first stars in the Universe. This led him to work on developing an analysis and visualization package for volumetric data, yt, which has been used for quantiative and qualitative visualization of data from several disciplines.
+
+
+
+4)
+

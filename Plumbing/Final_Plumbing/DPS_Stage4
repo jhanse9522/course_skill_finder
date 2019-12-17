@@ -12,7 +12,7 @@ Instructor information
 •	Office: 4040 NCSA (National Center for Supercomputing Applications)
 •	Email: pnb@illinois.edu
 
-Course description
+Course_Description
 This course covers the common data and document processing constructs and programming concepts used in library and information science. The history, strengths and weaknesses of the techniques are evaluated in the context of our discipline. These constructs and techniques form the basis of applications in areas such as bibliographic records management, full text management and multimedia. No prior programming background is assumed. The first half of the course will focus on programming essentials in Python, and the second half will have us explore other applications and how to integrate the fundamentals to solve more complex problems.
 Informal learning goals
 The following are more 'educational wins' rather than formal learning goals. Of course I hope that you learn how to program in this class, but not everyone taking the course wants to program after taking the class. So why is this still a valuable class for you to take? Read on.
@@ -311,6 +311,8 @@ Course_Title:
 
 Makerspace
 
+Course_Description
+
 Overview
 This course will introduce you to the principles and tools behind the maker movement.  The maker movement is built on creative exploration of technology.  Makers, in general, are individuals who create or produce something, often combining technology with DIY.  Makerspaces are laboratories created to provide a physical space for makers to come together in the generation, design, and fabrication of these products. In this class we ask you to explore yourself as a maker.  You will learn a variety of rapid prototyping and fabrication techniques placing emphasis on the design and learning processes, along with self-reflection.
 
@@ -460,20 +462,6 @@ Course_Title:
 
 IS590DV - Data Visualization
 
-
-
-Course_Description:
-
-Data visualization is crucial to conveying information drawn from models, observations or investigations. This course will provide an overview of historical and modern techniques for visualizing data, drawing on quantitative, statistical, and network-focused datasets. Topics will include construction of communicative visualizations, the modern software ecosystem of visualization, and techniques for aggregation and interpretation of data through visualization.Particular attention will be paid to the Python ecosystem and multi-dimensional quantitative datasets.
-Course Overview
-This course is designed to give practical advice to students on communicating data through visualization. This will involve a considerable amount of programming, and typically this programming will be done in Python. For the most part, our data will be quantitative and multi-dimensional. The course will aim to provide both an understanding of what data visualizations communicate and a set of tools for constructing them yourself.
-The course will follow a common pattern within each three-hour instructional session. The first 60-90 minutes will be focused on lecture, where concepts and tools will be introduced; typically, each class will focus on one type of visualization or class of visualization. The remaining time will include exploration of a dataset, which may be independent or in groups, and then a wrap-up session at the end.
-Students are expected to have laptops with them, as well as access to Python installations, and will be encouraged to participate in class. Homework will be assigned and collected utilizing the Jupyter nbgrader extension or through other methods specified at time of submission.
-Pre- and Co-requisites
-None, although basic Python programming experience is assumed. A brief introduction to Python will be presented during the course.
-
-
-
 Other_Stuff:
 
 This is the course website for IS590 Data Visualization in Spring 2019
@@ -496,6 +484,20 @@ Syllabus
 •	Jupyterhub: https://jupyterhub.ischool.illinois.edu/
 •	Slack: https://is590dv-spring2019.slack.com/
 •	Moodle: https://courses.ischool.illinois.edu/course/view.php?id=3487
+
+
+
+Course_Description:
+
+Data visualization is crucial to conveying information drawn from models, observations or investigations. This course will provide an overview of historical and modern techniques for visualizing data, drawing on quantitative, statistical, and network-focused datasets. Topics will include construction of communicative visualizations, the modern software ecosystem of visualization, and techniques for aggregation and interpretation of data through visualization.Particular attention will be paid to the Python ecosystem and multi-dimensional quantitative datasets.
+Course Overview
+This course is designed to give practical advice to students on communicating data through visualization. This will involve a considerable amount of programming, and typically this programming will be done in Python. For the most part, our data will be quantitative and multi-dimensional. The course will aim to provide both an understanding of what data visualizations communicate and a set of tools for constructing them yourself.
+The course will follow a common pattern within each three-hour instructional session. The first 60-90 minutes will be focused on lecture, where concepts and tools will be introduced; typically, each class will focus on one type of visualization or class of visualization. The remaining time will include exploration of a dataset, which may be independent or in groups, and then a wrap-up session at the end.
+Students are expected to have laptops with them, as well as access to Python installations, and will be encouraged to participate in class. Homework will be assigned and collected utilizing the Jupyter nbgrader extension or through other methods specified at time of submission.
+Pre- and Co-requisites
+None, although basic Python programming experience is assumed. A brief introduction to Python will be presented during the course.
+
+
 
 
 7)
@@ -693,21 +695,6 @@ Course_Title:
 IS 562 AO -- Metadata in Theory & Practice
 
 
-
-
-Course_Description:
-
-Course Description & Objectives:
-Metadata plays an increasingly critical role in the creation, distribution, management and use of electronic materials.
-This course will combine theoretical examination of the design of metadata schema with their practical application in
-a variety of settings. Hands-on experience in the creation of descriptive, administrative and structural metadata,
-along with their application in systems such as OAI harvesting, OpenURL resolution systems, and digital repositories,
-will help students develop a thorough understanding of current metadata standards as well as such issues as crosswalking
-metadata schema, metadata's use in information retrieval and data management applications, and the role of standards
-bodies in metadata schema development.
-
-
-
 Other_Stuff:
 
 Spring 2019
@@ -726,6 +713,19 @@ Syllabus subject to change at any moment.
  News and AnnouncementsForum
  Open DiscussionForum
  Technical Forum
+
+
+Course_Description:
+
+Course Description & Objectives:
+Metadata plays an increasingly critical role in the creation, distribution, management and use of electronic materials.
+This course will combine theoretical examination of the design of metadata schema with their practical application in
+a variety of settings. Hands-on experience in the creation of descriptive, administrative and structural metadata,
+along with their application in systems such as OAI harvesting, OpenURL resolution systems, and digital repositories,
+will help students develop a thorough understanding of current metadata standards as well as such issues as crosswalking
+metadata schema, metadata's use in information retrieval and data management applications, and the role of standards
+bodies in metadata schema development.
+
 
  11)
 

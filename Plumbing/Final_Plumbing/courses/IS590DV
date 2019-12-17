@@ -1,0 +1,45 @@
+
+
+IS590DV - Data Visualization
+
+Other_Stuff:
+
+This is the course website for IS590 Data Visualization in Spring 2019
+•	View On GitHub
+Syllabus
+•	Spring, 2019
+•	126 iSchool, Monday, 9-11:50AM
+•	4 Credit Hours
+•	Instructor: Andrew Christensen
+•	Email: achrist3@illinois.edu
+•	Office: 2019 NCSA Building
+•	Office Hours: Thursday 9AM - 11AM	•	Instructional Assistant: Arjitha Balaji
+•	Email: arjitha2@illinois.edu
+•	Office: 52 iSchool
+•	Office Hours: Wednesday 10AM - 12noon
+•	Instructional Assistant: Krishna Shanker-Rajhan
+•	Email: gs10@illinois.edu
+•	Office: 52 iSchool
+•	Office Hours: Tuesday and Thursday 4PM - 5PM
+•	Jupyterhub: https://jupyterhub.ischool.illinois.edu/
+•	Slack: https://is590dv-spring2019.slack.com/
+•	Moodle: https://courses.ischool.illinois.edu/course/view.php?id=3487
+
+
+
+Course_Description:
+
+Data visualization is crucial to conveying information drawn from models, observations or investigations. This course will provide an overview of historical and modern techniques for visualizing data, drawing on quantitative, statistical, and network-focused datasets. Topics will include construction of communicative visualizations, the modern software ecosystem of visualization, and techniques for aggregation and interpretation of data through visualization.Particular attention will be paid to the Python ecosystem and multi-dimensional quantitative datasets.
+Course Overview
+This course is designed to give practical advice to students on communicating data through visualization. This will involve a considerable amount of programming, and typically this programming will be done in Python. For the most part, our data will be quantitative and multi-dimensional. The course will aim to provide both an understanding of what data visualizations communicate and a set of tools for constructing them yourself.
+The course will follow a common pattern within each three-hour instructional session. The first 60-90 minutes will be focused on lecture, where concepts and tools will be introduced; typically, each class will focus on one type of visualization or class of visualization. The remaining time will include exploration of a dataset, which may be independent or in groups, and then a wrap-up session at the end.
+Students are expected to have laptops with them, as well as access to Python installations, and will be encouraged to participate in class. Homework will be assigned and collected utilizing the Jupyter nbgrader extension or through other methods specified at time of submission.
+Pre- and Co-requisites
+None, although basic Python programming experience is assumed. A brief introduction to Python will be presented during the course.
+
+
+
+
+7)
+
+

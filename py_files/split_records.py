@@ -5,7 +5,7 @@ filein = fhand.read()
     # course description substring
 
 
-records = filein.split("Course_Title:")  #splits text into records (list of strings)
+records = filein.split("Course_Title:")  #splits text into records (list of strings) -> still 1 file -> at processing stage -> chunked and ready to send out
 records.pop(0)
 
 for record in records:
