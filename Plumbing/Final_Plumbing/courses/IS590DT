@@ -1,0 +1,55 @@
+
+
+IS590DT: Data Mining Applications
+
+Other_Stuff:
+
+UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN
+School of Information Sciences
+IS590DT: Data Mining Applications
+Spring 2019
+Wednesdays 9:30am-12:20pm
+iSchool 46
+Instructors
+Vetle Torvik
+Office: iSchool 221
+Email: vtorvik@illinois.edu;
+Office Hours: 10am-noon Tuesdays
+Yingjun Guan
+Office: iSchool 211
+Email: yingjun2@illinois.edu
+Office Hours: noon - 2pm Thursdays
+
+
+Course_Description:
+
+Data mining refers to the process of exploring large datasets with the goal of uncovering interesting patterns. This process
+usually involves a number of tasks such as data collection, pre-processing, and characterization; model fitting, selection, and
+evaluation; classification, clustering, and prediction. Although data mining has its roots in database management, it has
+grown into a discipline that focuses on algorithm design (to ensure computational feasibility) and statistical modeling (to
+separate the signal from the noise). As such, it draws heavily upon a variety of other disciplines including statistics, machine
+learning, operations research, and information retrieval. This course will cover the major data mining concepts, principles,
+and techniques that *every information scientist should know about.* Lectures will introduce and discuss the major
+approaches to data mining, computer lab sessions coupled with assignments will provide hands-on experience with these
+approaches, and term projects offer the opportunity to use data mining in a novel way. Mathematical detail will be left to the
+students who are so inclined.
+
+
+Course Objectives
+
+
+The overall goal of this course is to develop a data mining perspective of the world. More specifically,
+the objectives are:
+1. To gain a broad exposure to data mining concepts and principles through lectures and discussion.
+2. To develop a working proficiency in selected data mining techniques through lab sessions,
+hands-on assignments, and office hours.
+3. To nurture the ability to detect opportunities to apply data mining concepts, principles and
+techniques in new scenarios by independent exploration of resources beyond the course
+materials, and, optionally, through a course project.
+Required Textbook and Software
+Witten IH, Frank E, Hall MA. Data Mining: Practical Machine Learning Tools and Techni
+
+
+14)
+
+
